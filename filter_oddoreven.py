@@ -1,0 +1,7 @@
+lst2=input("enter the list").split()
+lst=list(lst2)
+lst1=list(map(int,lst))
+res=list(filter(lambda n:(n%2)==0,lst1))
+print(res)
+res1=list(filter(lambda n:(n%2)!=0,lst1))
+print(res1)

@@ -1,0 +1,9 @@
+lst=[1,2,3,[4,5,6,[4,5],6],8]
+print(lst[2])
+print(lst[1])
+print(lst[3])
+print(lst[3][0])
+print(lst[3][3])
+print(lst[3][3][0])
+print(lst[3][3][1])
+print(lst[4])

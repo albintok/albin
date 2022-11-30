@@ -1,0 +1,6 @@
+f1=open('new_file','r')
+lst=f1.readlines()
+f1.close()
+f2=open('text','w')
+f2.writelines(lst)
+f2.close()

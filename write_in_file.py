@@ -1,0 +1,6 @@
+f1=open('new_file','w')
+f1.write("i see u")
+f1.close()
+f2=open("new_file",'r')
+lst=f2.readlines()
+print(lst)
